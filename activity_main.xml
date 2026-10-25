@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="28dp">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Kanka VPN" android:textSize="32sp" android:textStyle="bold" />
+    <TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Bağlı değil" android:textSize="18sp" android:layout_marginTop="18dp" />
+    <Button android:id="@+id/configButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="WireGuard ayarı seç (.conf)" android:layout_marginTop="36dp" />
+    <Button android:id="@+id/connectButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="BAĞLAN" android:enabled="false" android:layout_marginTop="12dp" />
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Not: İnternete çıkmak için bir WireGuard sunucu yapılandırması gerekir. Uygulama anahtarını veya şifreni bir yere göndermez."
+        android:textSize="13sp" android:layout_marginTop="28dp" />
+</LinearLayout>

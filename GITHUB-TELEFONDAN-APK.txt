@@ -1,0 +1,18 @@
+KANKAVPN - TELEFONDAN APK OLUSTURMA
+
+1. GitHub.com'a gir ve ucretsiz hesap ac/giris yap.
+2. New repository sec. Repository name: KankaVPN. Public veya Private olabilir.
+3. Create repository'e bas.
+4. Add file > Upload files sec.
+5. Bu ZIP'i telefonda ac/cikart. KankaVPN klasorunun ICINDEKI dosya ve klasorleri repository'nin ana dizinine yukle.
+   Onemli: .github klasoru da yuklenmeli.
+6. Commit changes'e bas.
+7. Repository'de Actions sekmesine gir.
+8. "Build KankaVPN APK" workflow'unu sec.
+9. Run workflow > Run workflow'a bas. Push sonrasi otomatik basladiysa bekle.
+10. Islem yesil tik olunca ilgili calismayi ac.
+11. En altta Artifacts bolumunden "KankaVPN-APK" dosyasini indir.
+12. Indirdigin artifact ZIP'ini ac. Icindeki app-debug.apk telefona kurulabilir APK'dir.
+
+Not: Android, bilinmeyen kaynaklardan uygulama kurma izni isteyebilir.
+Gercek VPN baglantisi icin ayrica gecerli bir WireGuard .conf ve VPN sunucusu gerekir.
